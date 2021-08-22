@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Eudoxus Sans';
+    src: url('../../fonts/eudoxus-sans/EudoxusSans-Bold.woff2') format('woff2'),
+        url('../../fonts/eudoxus-sans/EudoxusSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'Eudoxus Sans';
+    src: url('../../fonts/eudoxus-sans/EudoxusSans-Regular.woff2') format('woff2'),
+        url('../../fonts/eudoxus-sans/EudoxusSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'Eudoxus Sans';
+    src: url('../../fonts/eudoxus-sans/EudoxusSans-Light.woff2') format('woff2'),
+        url('../../fonts/eudoxus-sans/EudoxusSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'Eudoxus Sans';
+    src: url('../../fonts/eudoxus-sans/EudoxusSans-ExtraBold.woff2') format('woff2'),
+        url('../../fonts/eudoxus-sans/EudoxusSans-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'Eudoxus Sans';
+    src: url('../../fonts/eudoxus-sans/EudoxusSans-ExtraLight.woff2') format('woff2'),
+        url('../../fonts/eudoxus-sans/EudoxusSans-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'Eudoxus Sans';
+    src: url('../../fonts/eudoxus-sans/EudoxusSans-Medium.woff2') format('woff2'),
+        url('../../fonts/eudoxus-sans/EudoxusSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: block;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('../../fonts/+JakartaSans/PlusJakartaSans-Bold.woff2') format('woff2'),
+        url('../../fonts/+JakartaSans/PlusJakartaSans-Bold.woff') format('woff');
+    font-weight: bold;
+    line-height: 110%;
+    font-style: normal;
+    font-display: block;
+    letter-spacing: -0.01em;
+}
+
+.nav {
+    font-family: 'Eudoxus Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;    
+    flex: none;
+    order: 6;
+    flex-grow: 0;
+    margin: 0px 20px;
+    color: #5B5675;
+}
+
+.box-nav {
+    margin-top: 15px!important;
+}
+
+.dividers {
+    height: 2px;
+    margin-top: 15px!important;
+}

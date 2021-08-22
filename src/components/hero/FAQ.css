@@ -1,0 +1,54 @@
+.faq-text {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+    pointer-events: none;
+}
+
+.faq-box {
+    padding: 5% 0 2% 0;
+    flex-direction: row;
+    border-bottom: solid 1px #E6E8EC;
+}
+
+.dropdown-icon {
+    position: relative;
+    transition: 0.5s;
+}
+
+.chakra-icon.css-ikjmp3 {
+    pointer-events: none;
+}
+
+.dropdown-text.css-0.active {
+    display: block;
+    animation: growDown 300ms ease-in-out forwards;
+    transform-origin: top center;
+}
+
+.dropdown-icon.tilt {
+    transform:scaleY(-1);
+    transition: 0.5s;
+}
+
+
+.dropdown-text {
+    display: none;
+    position: relative!important;
+    z-index: 1;
+    animation: growDown 300ms ease-in-out forwards;
+    transform-origin: top center;
+}
+
+@keyframes growDown {
+    0% {
+        transform: rotateX(-90deg)
+    }
+    70% {
+        transform: rotateX(20deg) 
+    }
+    100% {
+        transform: rotateX(0deg) 
+    }
+}

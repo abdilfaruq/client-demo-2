@@ -1,0 +1,8 @@
+div#bg-circle {
+    position: absolute!important;
+    width: 320px!important;
+    height: 288px!important;
+    margin-top: -20%;
+    z-index: 0;
+    left: -10px;
+}

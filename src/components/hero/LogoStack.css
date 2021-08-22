@@ -1,0 +1,64 @@
+.logo-img {
+    height: -webkit-fill-available;
+    filter: grayscale(100%);
+}
+
+img#microsoft-logo:hover {
+    filter: grayscale(0%);
+}
+img#google-logo:hover {
+    filter: grayscale(0%);
+}
+img#stripe-logo:hover {
+    filter: grayscale(0%);
+}
+img#entrepreneur-logo:hover {
+    filter: grayscale(0%);
+}
+img#uber-logo:hover {
+    filter: grayscale(0%);
+}
+img#forbes-logo:hover {
+    filter: grayscale(0%);
+}
+img#company-logo-2:hover {
+    filter: grayscale(0%);
+}
+
+@media only screen and (max-width: 1024px) {
+    .image-div {
+        display: grid!important;
+        grid: 150px / auto auto auto;
+        grid-gap: 10px;
+    }
+    .slick-slider {
+        display: flex!important;
+        align-items: center!important;
+        outline: none!important;
+    }
+    .slick-slide:active {
+        outline: none;
+      }
+    .css-1vxp45d {
+        margin-left: 0!important;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .image-div {
+        display: grid!important;
+        grid-template-columns: 57.667% 33.334%;
+        grid-template-rows: 70px;
+        padding: 1em;
+        
+    }
+    .container-div {
+        height: 100px!important;
+    }
+    .css-14y0vko {
+        margin-top: 0!important;
+    }
+    .logo-img {
+        opacity: 1!important;
+    }
+}

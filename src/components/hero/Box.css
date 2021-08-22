@@ -1,0 +1,45 @@
+.teacher-box.selected {
+    border: 2px solid rgba(0, 154, 157, 0.55);
+    box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 20%);
+}
+
+.teacher-box.unselected.css-twsa2p {
+    border: 1px solid #E6E8EC!important;
+    box-shadow: none;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+.text-box {
+    text-align-last: left;
+    align-self: center;
+    grid-column-start: none;
+}
+
+@media only screen and (max-width: 950px) {
+    .css-dmu4ji {
+        text-align: -webkit-center!important;
+    }
+
+    .text-box.css-1tb86oa {
+        text-align-last: center;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    .css-1hjfubk {
+        width: auto!important;
+        margin-top: 0px!important;
+    }
+    .css-a6rva7 {
+        text-align: center!important;
+    }
+}

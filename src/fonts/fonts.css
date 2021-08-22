@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Eudoxus Sans';
+    src: url('./eudoxus-sans/EudoxusSans-Bold.woff2') format('woff2'),
+        url('./eudoxus-sans/EudoxusSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'Eudoxus Sans';
+    src: url('./eudoxus-sans/EudoxusSans-Regular.woff2') format('woff2'),
+        url('./eudoxus-sans/EudoxusSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'Eudoxus Sans';
+    src: url('./eudoxus-sans/EudoxusSans-Light.woff2') format('woff2'),
+        url('./eudoxus-sans/EudoxusSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'Eudoxus Sans';
+    src: url('./eudoxus-sans/EudoxusSans-ExtraBold.woff2') format('woff2'),
+        url('./eudoxus-sans/EudoxusSans-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'Eudoxus Sans';
+    src: url('./eudoxus-sans/EudoxusSans-ExtraLight.woff2') format('woff2'),
+        url('./eudoxus-sans/EudoxusSans-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: 'Eudoxus Sans';
+    src: url('./eudoxus-sans/EudoxusSans-Medium.woff2') format('woff2'),
+        url('./eudoxus-sans/EudoxusSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: block;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('./+JakartaSans/PlusJakartaSans-Bold.woff2') format('woff2'),
+        url('./+JakartaSans/PlusJakartaSans-Bold.woff') format('woff');
+    font-weight: bold;
+    line-height: 110%;
+    font-style: normal;
+    font-display: block;
+    letter-spacing: -0.01em;
+}
